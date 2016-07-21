@@ -6,7 +6,7 @@ If you have a lot of Munki items to move through a development-testing-productio
 
 There are actually a bunch of catalog promotion scripts for Munki. Ed Ravin has compiled [a fairly comprehensive list on the Munki Dev mailing list.](https://groups.google.com/d/msg/munki-dev/w5fAMwzeMmM/s_-ri2nGAgAJ)
 
-I wanted to create something simple for what I want, which is just to move every pkginfo through after a certain number of days. I also wanted to practice some more Python, so script was a good excuse to do so. If this script doesn't do what you want to do, definitely check out any of the other automated options from Ed Ravin's list.
+I wanted to create something simple for what I want, which is just to move every pkginfo through after a certain number of days. I also wanted to practice some more Python, so this script was a good excuse to do so. If this script doesn't do what you want to do, definitely check out any of the other automated options from Ed Ravin's list.
 
 ## How to use MunkiCatalogPromote
 ### General Instructions
