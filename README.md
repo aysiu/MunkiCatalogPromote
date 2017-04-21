@@ -11,7 +11,7 @@ I wanted to create something simple for what I want, which is just to move every
 ## How to use MunkiCatalogPromote
 ### General Instructions
 * Download the MunkiCatalogPromote.py file to your Munki server.
-* Edit the MunkiCatalogPromote.py, being sure to user-defined preferences. You may want to make the days between promotions longer or shorter, or you may have only testing and production catalogs (no development). Definitely be sure check your MUNKI_ROOT_PATH to match that of your server's.
+* Edit the MunkiCatalogPromote.py, being sure to modify (if necessary) the user-defined preferences. You may want to make the days between promotions longer or shorter, or you may have only testing and production catalogs (no development). Definitely be sure check your MUNKI_ROOT_PATH to match that of your server's.
 * Move MunkiCatalogPromote.py and the FoundationPlist folder to /usr/local/mcp and make it executable.
 * The first time you run MunkiCatalogPromote, it won't seem to do anything, because it's just tagging each pkginfo with a promotion date of now, and then each item's actual promotion will happen after a certain number of days (which you define) the next time you run the script.
 * If you find MunkiCatalogPromote working the way you like it, you can automate it using a launch agent (Mac), a cron job (Linux), or a scheduled task (Windows).
